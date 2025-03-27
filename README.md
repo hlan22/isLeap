@@ -1,4 +1,4 @@
-# isLeap: An Sample R Package
+# isLeap: A Sample R Package
 
 Created with instructions from my DSCI 310 class, I learned how to make an example package for R using devtools.
 
@@ -79,24 +79,54 @@ It provides functions to create, document, and test R packages efficiently.
 ---
 ## A guide to the steps done in class to check/install package
 
-> library(devtools)
-> > loads devtools package
-> use_r("is_leap")
-> > creates a new file in Rstudio called `is_leap.R`
-> devtools::load_all()
-> > loads all info about the package isLeap
-> devtools::check()
-> > check if package is following all the checks that would be good enough for R (and CRAN?)
-> usethis::use_mit_license()
-> > Adds "MIT + file LICENSE"
-> devtools::check()
-> > checks again, "approved"
-> devtools::document()
-> > Updates isLeap documentation and loads it
-> devtools::install()
-> > does all the checks for the package and then installs it on your local machine
-> library(isLeap)
-> > now you can load the library
-> is_leap(1000)
-> > and use the functions with no issues!
+```r
+library(devtools)  
+```
+  > Loads the `devtools` package  
+
+```r
+use_r("is_leap")  
+```
+  > Creates a new file in RStudio called `is_leap.R`  
+
+```r
+devtools::load_all()  
+```
+  > Loads all info about the package `isLeap`  
+
+```r
+devtools::check()  
+```
+  > Checks if the package follows all requirements for R (and CRAN?)  
+
+```r
+usethis::use_mit_license()  
+```
+  > Adds "MIT + file LICENSE"  
+
+```r
+devtools::check()  
+```
+  > Runs the checks again, "approved"  
+
+```r
+devtools::document()  
+```
+  > Updates `isLeap` documentation and loads it  
+
+```r
+devtools::install()  
+```
+  > Runs all checks and installs the package on your local machine  
+
+```r
+library(isLeap)  
+```
+  > Now you can load the library  
+
+```r
+is_leap(1000)  
+```
+  > You can now use the functions with no issues!  
+
 
