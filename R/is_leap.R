@@ -1,5 +1,11 @@
-# library(dplyr)
-# something that begins with "is" assume TRUE/FALSE answer
+#' Is this a leap year?
+#'
+#' @param num a number
+#'
+#' @return TRUE or FALSE on whether or not it is a leap year
+#'
+#' @export
+#'
 is_leap <- function(num) {
   if (num %% 4 == 0) {
     return(TRUE)  # can also do return(T) in R, but you can reassign T<- FALSE so it is not good practice
@@ -14,6 +20,8 @@ is_leap(2004)
 # you should instead restart R, because then you should get rid of the libraries too
 # with this function and source(), you should be skeptical of the reproducibility of it
 
+# library(dplyr)
+# something that begins with "is" assume TRUE/FALSE answer
 
 
 # devtools::load_all()
