@@ -4,6 +4,10 @@ Created with instructions from my DSCI 310 class, I learned how to make an examp
 
 It's purpose it to help determine if a given year is a leap year!
 
+<!-- badges: start -->
+  [![R-CMD-check](https://github.com/hlan22/isLeap/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hlan22/isLeap/actions/workflows/R-CMD-check.yaml)
+  <!-- badges: end -->
+
 ---
 
 ### Extra Notes

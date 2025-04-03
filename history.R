@@ -40,3 +40,19 @@ is_leap("The year is 1000")
 
 # once the package is on github
 remotes::install_github("hlan22/isLeap")
+
+
+
+library(isLeap)
+usethis::use_pkgdown() # leverage r markdown to create a package website
+
+pkgdown::build_site() # build website
+
+usethis::use_pkgdown_github_pages()
+
+install.packages("covr")
+
+covr::report()
+
+usethis::use_github_action() # select option 1
+#creates workflow file
