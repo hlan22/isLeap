@@ -5,8 +5,9 @@ Created with instructions from my DSCI 310 class, I learned how to make an examp
 It's purpose it to help determine if a given year is a leap year!
 
 <!-- badges: start -->
-  [![R-CMD-check](https://github.com/hlan22/isLeap/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hlan22/isLeap/actions/workflows/R-CMD-check.yaml)
-  <!-- badges: end -->
+![R-CMD-check](https://github.com/hlan22/isLeap/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hlan22/isLeap/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/hlan22/isLeap/graph/badge.svg)](https://app.codecov.io/gh/hlan22/isLeap)
+<!-- badges: end -->
 
 ---
 
