@@ -210,6 +210,33 @@
 </blockquote>
 </div>
 </div>
+<div class="section level1">
+<h1 id="guide-to-functions-used-in-packages">Guide to functions used in Packages<a class="anchor" aria-label="anchor" href="#guide-to-functions-used-in-packages"></a>
+</h1>
+<p>These functions setup parts of the package and are typically called once per package:</p>
+<ul>
+<li>create_package()</li>
+<li>use_git()</li>
+<li>use_mit_license()</li>
+<li>use_testthat()</li>
+<li>use_github()</li>
+<li>use_readme_rmd()</li>
+</ul>
+<p>You will call these functions on a regular basis, as you add functions and tests or take on dependencies:</p>
+<ul>
+<li>use_r()</li>
+<li>use_test()</li>
+<li>use_package()</li>
+</ul>
+<p>You will call these functions multiple times per day or per hour, during development:</p>
+<ul>
+<li>load_all()</li>
+<li>document()</li>
+<li>test()</li>
+<li>check()</li>
+</ul>
+</div>
+
   </main><aside class="col-md-3"><div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
